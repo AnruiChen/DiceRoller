@@ -132,43 +132,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-/* FOR TWO DICE
-private fun rollDice() {
-    //instantiate an object dice1 of class Dice, with 6 sides
-    val dice1 = MainActivity.Dice(6);
-    //store the roll of 'dice1' in diceRoll1 variable
-    val diceRoll1 = dice1.roll();
-
-    //instantiate an object dice2 of class Dice, with 6 sides
-    val dice2 = MainActivity.Dice(6);
-    //store the roll of 'dice1' in diceRoll2 variable
-    val diceRoll2 = dice2.roll();
-
-    //assign the bottom text view (textView) in xml as resultTextView variable
-    val resultTextView1: TextView = findViewById(R.id.textView);
-    //assign the top text view (textView2) in xml as resultTextView2 variable
-    val resultTextView2: TextView = findViewById(R.id.textView2);
-
-    //set our resultTextView1's text to be the dice roll1 value
-    resultTextView1.text = diceRoll1.toString();  //need toString bc roll func returns int
-    //set our resultTextView2's text to be the dice roll1 value
-    resultTextView2.text = diceRoll2.toString();  //need toString bc roll func returns int
-}
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
